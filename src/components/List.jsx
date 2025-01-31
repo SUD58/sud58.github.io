@@ -24,7 +24,7 @@ export default function List() {
 
     // Add a colon after "Frontend Mentor" or "Odin" (case-insensitive)
     formattedName = formattedName.replace(
-      /\b(Frontend Mentor|Odin)\b/gi,
+      /\b(Frontend Mentor|Odin|Threejs)\b/gi,
       "$1:",
     );
 
