@@ -55,6 +55,7 @@ export default function List() {
           href={pageUrl}
           rel="noopener noreferrer"
           className="flex w-full rounded-2xl bg-zinc-100 p-4 shadow-lg transition-shadow hover:shadow-2xl dark:bg-zinc-900"
+          target="_blank"
         >
           {formatRepoName(repo.name)}
         </a>
