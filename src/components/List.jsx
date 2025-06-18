@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 export default function List() {
   const [repoList, setRepoList] = useState([]);
-  const username = "sud58"; // Your GitHub username
+  const username = "suhrudsh"; // Your GitHub username
 
   useEffect(() => {
     const apiUrl = `https://api.github.com/users/${username}/repos`;
